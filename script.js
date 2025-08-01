@@ -1,20 +1,20 @@
 const container = document.getElementById("bubble-container")
 
-const UNPOPPED = "resources/bubble.png"
+const UNPOPPED = "resources/img/bubble.png"
 const POPPED = [
-    "resources/bubble_popped_1.png",
-    "resources/bubble_popped_2.png",
-    "resources/bubble_popped_3.png",
-    "resources/bubble_popped_4.png",
-    "resources/bubble_popped_5.png",
-    "resources/bubble_popped_6.png",
-    "resources/bubble_popped_7.png",
+    "resources/img/bubble_popped_1.png",
+    "resources/img/bubble_popped_2.png",
+    "resources/img/bubble_popped_3.png",
+    "resources/img/bubble_popped_4.png",
+    "resources/img/bubble_popped_5.png",
+    "resources/img/bubble_popped_6.png",
+    "resources/img/bubble_popped_7.png",
 ]
 
 // Preload multiple audio objects for better performance
 const soundPoolSize = 5
 const popSounds = Array.from({ length: soundPoolSize }, () => {
-    const audio = new Audio("resources/pop.mp3")
+    const audio = new Audio("resources/pop/pop_ (0).mp3")
     audio.preload = "auto"
     return audio
 })
