@@ -1,6 +1,6 @@
 const container = document.getElementById("bubble-container")
 
-const UNPOPPED = "resources/img/bubble.png"
+const UNPOPPED = "resources/bubble.png"
 const POPPED = [
     "resources/img/bubble_popped_1.png",
     "resources/img/bubble_popped_2.png",
