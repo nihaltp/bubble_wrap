@@ -1,0 +1,76 @@
+:root {
+    --bubble-size: 50px;
+    --bubble-gap: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    margin: var(--bubble-gap);
+    background: #000000;
+    font-family: sans-serif;
+    text-align: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#bubble-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: var(--bubble-gap);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row.offset {
+    margin-left: calc(var(--bubble-size) / 2 + var(--bubble-gap));
+}
+
+.bubble {
+    width: var(--bubble-size);
+    height: var(--bubble-size);
+    margin: calc(var(--bubble-gap) / 2);
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.1s ease;
+    display: block;
+}
+
+.bubble:hover {
+    transform: scale(1.1);
+}
+
+.bubble:active {
+    transform: scale(0.9);
+}
+
+.bubble.popped:hover,
+.bubble.popped:active {
+    transform: none;
+    cursor: default;
+}
+
+@media (max-width: 768px) {
+    :root {
+        --bubble-size: 40px;
+        --bubble-gap: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --bubble-size: 35px;
+        --bubble-gap: 2px;
+    }
+}
