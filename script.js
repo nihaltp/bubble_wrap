@@ -11,14 +11,28 @@ const POPPED = [
     "resources/img/bubble_popped_7.png",
 ]
 
+const POP_SOUNDS = [
+    "resources/pop/pop_ (1).mp3",
+    "resources/pop/pop_ (2).mp3",
+    "resources/pop/pop_ (3).mp3",
+    "resources/pop/pop_ (4).mp3",
+    "resources/pop/pop_ (5).mp3",
+    "resources/pop/pop_ (6).mp3",
+    "resources/pop/pop_ (7).mp3",
+    "resources/pop/pop_ (8).mp3",
+    "resources/pop/pop_ (9).mp3",
+    "resources/pop/pop_ (10).mp3",
+    "resources/pop/pop_ (11).mp3",
+    "resources/pop/pop_ (12).mp3",
+    "resources/pop/pop_ (13).mp3",
+]
+
 // Preload multiple audio objects for better performance
-const soundPoolSize = 5
-const popSounds = Array.from({ length: soundPoolSize }, () => {
-    const audio = new Audio("resources/pop/pop_ (0).mp3")
+const popSounds = POP_SOUNDS.map(src => {
+    const audio = new Audio(src)
     audio.preload = "auto"
     return audio
 })
-let soundIndex = 0
 
 // Minimum percentage of bubbles that should remain unpopped
 const MIN_UNPOPPED_PERCENTAGE = 0.15 // 15% of total bubbles
@@ -30,12 +44,16 @@ function getRandomPoppedImage() {
     return POPPED[index]
 }
 
+function getRandomPopSound() {
+    const index = Math.floor(Math.random() * popSounds.length)
+    return popSounds[index]
+}
+
 function playPopSound() {
     try {
-        const sound = popSounds[soundIndex]
+        const sound = getRandomPopSound()
         sound.currentTime = 0
         sound.play().catch((e) => console.warn("Audio play failed:", e))
-        soundIndex = (soundIndex + 1) % soundPoolSize
     } catch (error) {
         console.warn("Audio error:", error)
     }
