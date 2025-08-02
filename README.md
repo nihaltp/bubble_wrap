@@ -60,7 +60,7 @@ Responsive behaviour: bubble adjust based on screen size
 
 ### Project Demo
 # Video
-[video](/video/video.mp4)
+[video](/resources/video/video.mp4)
 This video shows how I created a never-ending virtual bubble wrap using randomly selected pop sounds and popping images. Click, pop, repeat — forever.
 
 # Additional Demos
