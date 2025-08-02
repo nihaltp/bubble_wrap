@@ -61,8 +61,7 @@ Responsive behaviour: bubble adjust based on screen size
 
 #### Diagrams
 
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![Workflow](./resources/workflow.png)
 
 ### Project Demo
 
