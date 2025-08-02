@@ -1,83 +1,62 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Endless Bubble Wrap 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Binary Fools
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: NIHAL T P - Rajiv Gandhi Institute of Techonlogy
+- Member 2: BHARATH KRISHNA G - Rajiv Gandhi Institute of Techonlogy
 
 ### Project Description
-[2-3 lines about what your project does]
+Who needs stress balls when you have got an infinite supply of bubble wraps?
+Our website brings the joy of it straight to the browser with every feel you need.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+You just popped your last piece of bubble wrap.
+You can't just forget the feel of it, can you?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+An endless sheet of bubble wrap, clickable, poppable.
+Complete with satisfying feel and pop.
+Random bubbles, Random pops, Works on any screen size
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- HTML, CSS, JS
+- No frameworks used - 100% handcrafted!
+- JS Audio API for sound
+- Github Pages for Hosting
 
 ### Implementation
-For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
+# Installation
+Open your browser and open this link[https://nihaltp.github.io/bubble_wrap]
 
 ### Project Documentation
 For Software:
+Responsive layout that dynamically calculates how many bubbles are needed to fill in the screen.
+Each bubble has a click event the changes it to a random popped image and plays a random pop sound.
+Allows overlapping of pops for realistic pop sound, equipped with a endless bubble popping experience.
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+A fully loaded bubble wrap screen, ready for chaos
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+Popping of bubbles resulting in the change of image
 
 ![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+Responsive behaviour: bubble adjust based on screen size
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
@@ -88,9 +67,8 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- NIHAL T P[https://github.com/nihaltp]: [Specific contributions]
+- BHARATH KRISHNA G[https://github.com/Bharath-Kris07]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
