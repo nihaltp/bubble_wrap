@@ -67,8 +67,8 @@ Responsive behaviour: bubble adjust based on screen size
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- NIHAL T P[https://github.com/nihaltp]: [Specific contributions]
-- BHARATH KRISHNA G[https://github.com/Bharath-Kris07]: [Specific contributions]
+- [NIHAL T P](https://github.com/nihaltp): Programming and Debugging
+- [BHARATH KRISHNA G](https://github.com/Bharath-Kris07): Programming and Debugging
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
